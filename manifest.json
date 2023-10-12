@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Hackathon",
+    "version": "1.0",
+    "description": "Description",
+    "content_scripts": [
+        {
+            "js": [
+                "main.js"
+            ],
+            "matches": [
+                "https://www.codesmith.io/"
+            ],
+            "run_at": "document_idle"
+        }
+    ]
+}
