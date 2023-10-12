@@ -54,8 +54,9 @@ setTimeout(() => {
         
     // iterate over the array of images
     contents.forEach(img => {
-        img.setAttribute('src', 'https://static.frontendmasters.com/assets/teachers/sentance/thumb@2x.jpg');
+        img.setAttribute('src', 'jaime.png');
     });    
 }, 100);
 
+https://static.frontendmasters.com/assets/teachers/sentance/thumb@2x.jpg
 
