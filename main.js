@@ -54,9 +54,21 @@ setTimeout(() => {
         
     // iterate over the array of images
     contents.forEach(img => {
-        img.setAttribute('src', 'jaime.png');
+        img.setAttribute('src', 'https://static.frontendmasters.com/assets/teachers/sentance/thumb@2x.jpg');
     });    
 }, 100);
 
-https://static.frontendmasters.com/assets/teachers/sentance/thumb@2x.jpg
 
+
+setTimeout(() => {
+    const contents = document.querySelector('div.content-wrapper img');
+        
+    // iterate over the array of images
+    contents.forEach(img => {
+        img.setAttribute('src', 'https://static.frontendmasters.com/assets/teachers/sentance/thumb@2x.jpg');
+    });    
+}, 100);
+
+
+//trying to get other photos to change too
+//.setAttribute('srcset', 'https://static.frontendmasters.com/assets/teachers/sentance/thumb@2x.jpg')
